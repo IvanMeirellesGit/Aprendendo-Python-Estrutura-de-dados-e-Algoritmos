@@ -6,13 +6,13 @@ def gera_numero_random():
 
 def bubblesort(lista):
     tamanho_lista = len(lista)
-    for j in range(tamanho_lista - 1):
+    for i in range(tamanho_lista - 1):
         for i in range(tamanho_lista - 1):
             if lista[i] > lista[i + 1]:
                 lista[i], lista[i + 1] = lista[i+1], lista[i]
 def bubble_sort_invert(list):
     tamanho_lista = len(list)
-    for j in range(tamanho_lista - 1):
+    for i in range(tamanho_lista - 1):
         for i in range(tamanho_lista - 1):
             if list[i] < list[i + 1]:
                 list[i], list[i+1] = list[i+1], list[i]
